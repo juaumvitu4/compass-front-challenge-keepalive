@@ -31,21 +31,23 @@
     margin-right: 10px;
 }
 
-.texto.login {
+.titulo__login {
     font-weight: 400;
     font-size: 30px;
     line-height: 38px;
     margin-left: 50px;
+    color: #E0E0E0;
+
 }
 
-
-.email,.senha {    
+.email, .senha {    
     width: 379px;
     height: 50px;
     left: 285px;
     top: 547px;
     border-radius: 50px;
-    margin: 10px;
+    margin-left: 10px;
+    color: #E0E0E0;
     border: 1px solid rgba(255, 255, 255, 0);
     background-color: transparent;
 }

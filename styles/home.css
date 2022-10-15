@@ -1,0 +1,134 @@
+*{
+    margin: 3px;
+    padding: 0;
+    background-image: url(/assets/img/bola-LogoCompasso\ 1.svg);
+    background:no-repeat;  
+}
+
+.logo__imagem {
+    width: 50%;
+    position: relative;
+    top: 100px;
+}
+
+
+.hora {
+    font-size: 114px;
+    color: #222222;
+}
+
+.local {
+    color: #222222;
+}
+
+.previsao {
+    position: relative;
+    bottom: 8px;
+}
+
+.letra__vermelha {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: right;
+    color: #C12D18;
+}
+
+.letras {
+    margin-right: 70px;
+    padding: 70px;
+}
+.pequena {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: right;
+}
+.letra__secundaria {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+}
+
+.rodape {
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    height: 100px;
+    left: 0px;
+    bottom: -1px;  
+}
+
+.texto__rodape {   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+    align-items: center;
+    
+    
+}
+
+.linha {
+    height: 50px;
+    border-right: 1px solid #FFFFFF;
+    position: relative;
+    top: 25px;
+    
+}
+
+.refresh {
+    font-size: 0.875rem;
+    text-align: end;
+    width: 20%;
+    line-height: 17.75px;
+    font-weight: 400;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.atualizar
+
+.tempo {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;    
+    text-align: center;    
+}
+
+.segundos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+   
+}
+.continuar__nav {
+    width: 131px;
+    height: 94px;
+    left: 1661px;
+    top: 981px;
+    background-color: #FFFFFF;
+    color: #C12D18;
+    text-align: center;
+    
+    
+}
+
+.sair {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sair__logout {
+    display: flex;
+    text-align: center;
+}
