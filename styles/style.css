@@ -18,6 +18,10 @@
 .titulo__login {   
     margin-left: 15px;
     margin-top: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;    
+    color: #E0E0E0;
 }
 
 .descricao {
@@ -28,28 +32,20 @@
 }
 
 .form {    
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
-.titulo__login {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
-    margin-left: 50px;
-    color: #E0E0E0;
-
-}
-
-.email, .senha {    
+#login__sucesso, #senha__sucesso {    
     width: 379px;
-    height: 50px;
-    left: 285px;
-    top: 547px;
+    height: 50px;    
     border-radius: 50px;
     margin-left: 10px;
     color: #E0E0E0;
-    border: 1px solid rgba(255, 255, 255, 0);
-    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    background-color: transparent;    
+    padding-left: 20px;
+    margin-right: 5px;
+    margin-top: 20px;
 }
 
 .btn__continue {
@@ -62,6 +58,7 @@
     border-radius: 50px;
     margin: 50px 30px 0 0;
     border: none;
+    margin-left: 15px;
 }
 
 .imagem {

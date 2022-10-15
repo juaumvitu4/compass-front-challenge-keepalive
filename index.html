@@ -12,22 +12,22 @@
 <body>
     <main class="principal d-flex justify-content-center align-items-center">
         <section class="login d-flex flex-column w-50 align-items-center">
-        <div class="titulo d-flex flex-column w-50">
+        <div class="titulo d-flex flex-column w-50" >
             <h2 class="titulo__principal">Olá,</h2>
             <p class="descricao">Para continuar navegando de forma <br>segura, efetue o login na rede.</p>     
         </div>  
-        <form action="formulario" class="form d-flex flex-column">
+        <form class="form d-flex flex-column">
             <h2 class="titulo__login">Login</h2>
             <div class="email__login">
-                <input type="email" placeholder="Usúario" required class="email">
+                <input type="email" placeholder="Usúario" id="login__sucesso">
                 <img src="assets/img/login.svg" alt="email">
             </div>
             <div class="senha__login">
-                <input type="password" placeholder="Senha" required class="senha">
+                <input type="password" placeholder="Senha" id="senha__sucesso">
                 <img src="assets/img/senha.svg" alt="Senha">
             </div>
             <div class="botao">
-                <button class="btn__continue"><a href="home.html"></a> Continue</button>
+                <input type="submit" onclick="logar(); return false"  value="Continuar" class="btn__continue">
             </div>
         </section>
     </form>        

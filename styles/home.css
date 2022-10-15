@@ -1,5 +1,6 @@
 *{
-    margin: 3px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 6px;
     padding: 0;
     background-image: url(/assets/img/bola-LogoCompasso\ 1.svg);
     background:no-repeat;  
@@ -13,8 +14,15 @@
 
 
 .hora {
-    font-size: 114px;
-    color: #222222;
+    font-size: 80px;
+}
+
+.data {
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    bottom: 40px;
+    
 }
 
 .local {
@@ -56,9 +64,8 @@
 
 .rodape {
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
-    height: 100px;
-    left: 0px;
-    bottom: -1px;  
+    height: 100%;   
+    width: 100%;  
 }
 
 .texto__rodape {   
@@ -69,15 +76,13 @@
     text-align: right;
     color: #FFFFFF;
     align-items: center;
-    
-    
+    padding-left: 300px;   
 }
 
 .linha {
     height: 50px;
     border-right: 1px solid #FFFFFF;
-    position: relative;
-    top: 25px;
+    
     
 }
 
@@ -91,7 +96,6 @@
     align-items: center;
 }
 
-.atualizar
 
 .tempo {
     color: white;
@@ -111,24 +115,32 @@
     text-align: center;
    
 }
+
 .continuar__nav {
     width: 131px;
     height: 94px;
-    left: 1661px;
-    top: 981px;
     background-color: #FFFFFF;
-    color: #C12D18;
-    text-align: center;
-    
-    
+    color: #C12D18;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;    
+    padding-top: 30px;
 }
+
+
 
 .sair {
-    color: #FFFFFF;
-    text-align: center;
+    color: #FFFFFF;    
+    width: 89px;
+    height: 55px;   
+    
 }
 
-.sair__logout {
-    display: flex;
-    text-align: center;
+.sair__logout {        
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 15px;
+    color: #FFFFFF;
 }
