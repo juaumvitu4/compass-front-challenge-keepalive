@@ -6,6 +6,13 @@
     background:no-repeat;  
 }
 
+main {
+    background-image: url(/assets/img/bigLogoCompass.png); 
+    background-size: auto;
+    position: relative;
+    top: 6px;
+}
+
 .logo__imagem {
     width: 50%;
     position: relative;
@@ -18,6 +25,7 @@
     font-weight: 700;
 }
 
+
 .data {
     font-weight: 400;
     font-size: 14px;
@@ -28,6 +36,7 @@
 
 .local {
     color: #222222;
+    margin-right: 15px;
 }
 
 .previsao {
@@ -65,7 +74,7 @@
 
 .rodape {
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
-    height: 100%;   
+    height: 113px;   
     width: 100%;  
 }
 
@@ -112,12 +121,11 @@
     font-size: 14px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
-    text-align: center;
+    color: #FFFFFF;    
    
 }
 
-.continuar__nav {
+.continuar__nav {   
     width: 131px;
     height: 94px;
     background-color: #FFFFFF;
@@ -127,6 +135,7 @@
     font-size: 12px;
     line-height: 15px;    
     padding-top: 30px;
+    
 }
 
 

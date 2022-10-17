@@ -1,5 +1,5 @@
 function inserirTexto(event) {
-    document.querySelector('.inserir__texto').innerText = 'Ops, usuário ou senha inválidos. Tente novamente!'
+    document.querySelector('.inserir__texto').innerHTML = '<p>Ops, usuário ou senha inválidos.<br> Tente novamente!</p>'
     event.preventDefault();
     
 }
@@ -8,8 +8,10 @@ function logar(event) {
     var senha = document.getElementById('senha__sucesso').value;
     
 
-    if(login === "viroe@compass.uol.com" && senha === "viroe") {        
-        location.href = './home.html'        
+    if(login === "admin@admin" && senha === "admin") {        
+        location.href = "home.html";        
+        event.preventDefault();        
+             localStorage.setItem("items", JSON.stringify({login, senha}));    
     } else {
         return inserirTexto(event);        
     }

@@ -4,7 +4,7 @@
 }
 
 .principal {
-    background: linear-gradient(180deg, #222222 0%, #000000 100%);
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);;
 }
 
 .titulo__principal {
@@ -46,7 +46,23 @@
     padding-left: 20px;
     margin-right: 5px;
     margin-top: 20px;
+    
+    
 }
+
+#login__sucesso:focus + .animacao {    
+    position: relative;
+    right: 50px;
+    
+    
+}
+#senha__sucesso:focus + .animacao {      
+    position: relative;
+    right: 50px;
+      
+}
+
+
 
 .btn__continue {
     background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
@@ -69,6 +85,21 @@
 
 .imagem__compass {
     width: 100%;
-    height: 60%;
+    height: 957px;
     
+}
+
+.inserir__texto {
+    color: #E9B425;  
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.28px;
+}
+
+.animacao {
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
