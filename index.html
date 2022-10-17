@@ -26,8 +26,11 @@
                 <input type="password" placeholder="Senha" id="senha__sucesso">
                 <img src="assets/img/senha.svg" alt="Senha">
             </div>
+            <div class="senha__incorreta">
+                <p class="inserir__texto"></p>
+            </div>
             <div class="botao">
-                <input type="submit" onclick="logar(); return false"  value="Continuar" class="btn__continue">
+                <button class="btn__continue" onclick="logar(event)">Continuar</button>
             </div>
         </section>
     </form>        
@@ -35,5 +38,6 @@
         <img class="imagem__compass" src="assets/img/image 2.png" alt="Compass">
     </figure>
     </main>
+    <script src="scripts/login.js"></script>
 </body>
 </html>
