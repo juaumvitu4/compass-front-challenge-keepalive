@@ -42,6 +42,26 @@ main {
 .previsao {
     position: relative;
     bottom: 8px;
+    left: 34px;
+    width: 40px;   
+}
+
+.texto__clima {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.local {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 10px;
 }
 
 .letra__vermelha {
@@ -127,23 +147,30 @@ main {
 
 .continuar__nav {   
     width: 131px;
-    height: 94px;
+    height: 130px;
     background-color: #FFFFFF;
     color: #C12D18;    
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;    
-    padding-top: 30px;
+    padding-top: 60px;
     
+    
+}
+
+.continuar__sair {
+    position: relative;
+    bottom: 20px;
 }
 
 
 
 .sair {
     color: #FFFFFF;    
-    width: 89px;
-    height: 55px;   
+    width: 131px;
+    height: 55px;
+    padding-top: 25px;   
     
 }
 
@@ -154,3 +181,4 @@ main {
     padding-top: 15px;
     color: #FFFFFF;
 }
+
