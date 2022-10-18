@@ -105,17 +105,3 @@
     font-weight: 700;
     line-height: 22.28px;
 }
-
-
-@media screen and (max-width: 756px) {
-    .principal {
-        width: 756px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .imagem__compass {
-        display: none;
-    }
-}

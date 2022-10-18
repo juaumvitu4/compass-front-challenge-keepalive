@@ -1,5 +1,5 @@
 function inserirTexto(event) {
-    document.querySelector('.inserir__texto').innerHTML = '<p>Ops, usuário ou senha inválidos.<br> Tente novamente!</p>'
+    document.querySelector('.inserir__texto').innerHTML = '<p>Ops, usuário ou senha inválidos.<br> Tente novamente!</p>'    
     event.preventDefault();
     
 }

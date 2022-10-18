@@ -10,7 +10,11 @@ main {
     background-image: url(/assets/img/bigLogoCompass.png); 
     background-size: auto;
     position: relative;
-    top: 6px;
+    top: 90px;
+}
+
+.imagem__logo {
+    margin-left: 10px;
 }
 
 .logo__imagem {
@@ -50,7 +54,7 @@ main {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 20px;
     margin-left: 50px;
     padding-right: 50px;
 }
@@ -62,6 +66,7 @@ main {
     line-height: 18px;
     text-align: center;
     margin-left: 10px;
+    
 }
 
 .letra__vermelha {
@@ -76,6 +81,8 @@ main {
 .letras {
     margin-right: 70px;
     padding: 70px;
+    position: relative;
+    bottom: 8em;
 }
 .pequena {
     font-style: normal;
@@ -88,12 +95,14 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 10px;
     color: #222222;
 }
 
 .rodape {
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    position: relative;
+    top: 80px;
     height: 113px;   
     width: 100%;  
 }
@@ -106,7 +115,9 @@ main {
     text-align: right;
     color: #FFFFFF;
     align-items: center;
-    padding-left: 300px;   
+    padding-left: 300px;
+    position: relative;
+    left: 15em; 
 }
 
 .linha {
@@ -141,7 +152,9 @@ main {
     font-size: 14px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    position: relative;
+    bottom: 15px;   
    
 }
 
